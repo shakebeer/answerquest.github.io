@@ -167,6 +167,7 @@ function fetchViddetails( i ) {
 				"viewcount" : data.items[0].statistics.viewCount,
 				"likes" : data.items[0].statistics.likeCount,
 				"dislikes" : data.items[0].statistics.dislikeCount,
+				"commentcount" : data.items[0].statistics.commentCount
 				"thumbnail" : data.items[0].snippet.thumbnails.high.url,
 				"link" : 'https://youtu.be/' + vidsList[i],
 				"tags" : data.items[0].snippet.tags ? data.items[0].snippet.tags.join() : "",
